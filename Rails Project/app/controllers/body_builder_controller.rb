@@ -1,5 +1,7 @@
 class BodyBuilderController < ApplicationController
+
   def WTB
+
   end
 
   def Beginner
@@ -24,6 +26,7 @@ class BodyBuilderController < ApplicationController
   end
 
   def Lagacy
+
   end
 
   def Mass
