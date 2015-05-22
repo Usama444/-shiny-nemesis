@@ -1,46 +1,46 @@
 class BodyBuilderController < ApplicationController
+  def Start
+  end
 
   def WTB
-
   end
 
-  def Beginner
+  def beginner
   end
 
-  def Intermediate
+  def intermediate
   end
 
-  def Advanced
+  def advanced
   end
 
-  def Arnold
+  def chest
   end
 
-  def KillerAbs
+  def killerabs
   end
 
-  def Nutrition
+  def arnold
   end
 
-  def Chest
+  def nutrition
   end
 
-  def Lagacy
-
+  def mass
   end
 
-  def Mass
+  def lagacy
   end
 
-  def Mon
+  def mon
   end
 
-  def Tue
+  def tue
   end
 
-  def Thu
+  def thu
   end
 
-  def Fri
+  def fri
   end
 end

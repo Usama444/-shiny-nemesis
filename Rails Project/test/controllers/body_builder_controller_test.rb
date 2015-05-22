@@ -1,73 +1,78 @@
 require 'test_helper'
 
 class BodyBuilderControllerTest < ActionController::TestCase
+  test "should get Start" do
+    get :Start
+    assert_response :success
+  end
+
   test "should get WTB" do
     get :WTB
     assert_response :success
   end
 
-  test "should get Beginner" do
-    get :Beginner
+  test "should get beginner" do
+    get :beginner
     assert_response :success
   end
 
-  test "should get Intermediate" do
-    get :Intermediate
+  test "should get intermediate" do
+    get :intermediate
     assert_response :success
   end
 
-  test "should get Advanced" do
-    get :Advanced
+  test "should get advanced" do
+    get :advanced
     assert_response :success
   end
 
-  test "should get Arnold" do
-    get :Arnold
+  test "should get chest" do
+    get :chest
     assert_response :success
   end
 
-  test "should get KillerAbs" do
-    get :KillerAbs
+  test "should get killerabs" do
+    get :killerabs
     assert_response :success
   end
 
-  test "should get Nutrition" do
-    get :Nutrition
+  test "should get arnold" do
+    get :arnold
     assert_response :success
   end
 
-  test "should get Chest" do
-    get :Chest
+  test "should get nutrition" do
+    get :nutrition
     assert_response :success
   end
 
-  test "should get Lagacy" do
-    get :Lagacy
+  test "should get mass" do
+    get :mass
     assert_response :success
   end
 
-  test "should get Mass" do
-    get :Mass
+  test "should get lagacy" do
+    get :lagacy
     assert_response :success
   end
 
-  test "should get Mon" do
-    get :Mon
+  test "should get mon" do
+    get :mon
     assert_response :success
   end
 
-  test "should get Tue" do
-    get :Tue
+  test "should get tue" do
+    get :tue
     assert_response :success
   end
 
-  test "should get Thu" do
-    get :Thu
+  test "should get thu" do
+    get :thu
     assert_response :success
   end
 
-  test "should get Fri" do
-    get :Fri
+  test "should get fri" do
+    get :fri
     assert_response :success
   end
 

@@ -1,31 +1,33 @@
 Rails.application.routes.draw do
+  get 'body_builder/Start'
+
   get 'body_builder/WTB'
 
-  get 'body_builder/Beginner'
+  get 'body_builder/beginner'
 
-  get 'body_builder/Intermediate'
+  get 'body_builder/intermediate'
 
-  get 'body_builder/Advanced'
+  get 'body_builder/advanced'
 
-  get 'body_builder/Arnold'
+  get 'body_builder/chest'
 
-  get 'body_builder/KillerAbs'
+  get 'body_builder/killerabs'
 
-  get 'body_builder/Nutrition'
+  get 'body_builder/arnold'
 
-  get 'body_builder/Chest'
+  get 'body_builder/nutrition'
 
-  get 'body_builder/Lagacy'
+  get 'body_builder/mass'
 
-  get 'body_builder/Mass'
+  get 'body_builder/lagacy'
 
-  get 'body_builder/Mon'
+  get 'body_builder/mon'
 
-  get 'body_builder/Tue'
+  get 'body_builder/tue'
 
-  get 'body_builder/Thu'
+  get 'body_builder/thu'
 
-  get 'body_builder/Fri'
+  get 'body_builder/fri'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
