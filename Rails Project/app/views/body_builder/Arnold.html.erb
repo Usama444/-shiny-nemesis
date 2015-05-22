@@ -24,15 +24,15 @@
           color: white;
       }
       img {
-          width:100%;
+          image-align: center;
       }
   </style>
   <title>Arnold Schwarzenegger</title>
 </head>
 <body>
-<img src="mass.png" alt="Arnold" style="width:100%;height:400px">
+<%= image_tag("mass.png", :alt => "Arnold") %>
 <h1>Arnold Schwarzenegger Blueprint Trainer: Main Page</h1>
-<img src="arnol.jpg" alt="Arnold" style="width:100%;height:400px">
+<%= image_tag("arnol.jpg", :alt => "Legend") %>
 <p>This is Arnold Schwarzenegger's blueprint. It's your map to an iron mind, epic physique, and incredible legacy. Follow in the footsteps of the world's greatest bodybuilder.<br>
 </p>
 <table style="width:80%">
@@ -56,8 +56,8 @@
   </tr>
 
 </table>
-<p1><a href="Mass.html"><br>Click here to watch Arnold's Mass Training</a><p1>
-  <p1><a href="Lagacy.html"><br><br>Click here to watch Arnold's Lagacy</a><p1>
+<p1><%= link_to 'Click here to watch Arnold Mass training', body_builder_mass_path%><p1><br>
+  <p1><%= link_to 'Click here to watch Arnold Lagacy', body_builder_lagacy_path%><p1>
 
 
 </body>

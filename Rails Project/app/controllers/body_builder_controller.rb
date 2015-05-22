@@ -3,6 +3,7 @@ class BodyBuilderController < ApplicationController
   end
 
   def WTB
+
   end
 
   def beginner

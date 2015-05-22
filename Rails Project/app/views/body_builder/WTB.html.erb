@@ -35,40 +35,37 @@
           text-align: center;
           color: white;
       }
-      img {
-          width:100%;
 
-      }
   </style>
 </head>
 <body>
 
 <h1>Welcome to the Bodybuilder.com</h1>
-<img src="Bodybuilder.jpg" alt="Bodybuilding" style="width:100%px;height:500px">
+<%= image_tag("Bodybuilder.jpg", :alt => "Bodybuilding") %>
+
 <p>Please select one plan to begin your bodybuilding training</p>
 <table style="width:100%">
   <tr>
-    <td><a href="Beginner.html">Beginner</a></td>
-    <td><a href="Intermediate.html">Intermediate</a></td>
-    <td><a href="Advanced.html">Advanced</a></td>
+    <td><%= link_to 'Beginner', body_builder_beginner_path%></td>
+    <td><%= link_to 'Intermediate', body_builder_intermediate_path%></td>
+    <td><%= link_to 'Advanced', body_builder_advanced_path%></td>
   </tr>
   <tr>
-    <td><img src="beginner.jpg" alt="Beginner" style="width:150px;height:200px"></td>
-    <td><img src="intermediate.jpg" alt="Intermediate" style="width:150px;height:200px"></td>
-    <td><img src="advanced.jpg" alt="Advanced" style="width:150px;height:200px"></td>
+    <td><%= image_tag("beginner.jpg", :alt => "Beginner") %></td>
+    <td><%= image_tag("intermediate.jpg", :alt => "Intermediate") %></td>
+    <td><%= image_tag("advanced.jpg", :alt => "Advanced") %></td>
   </tr>
 
 </table>
 <p>For killer six pack abs<br>
-  <a href="killer abs.html">Click here to watch full plan</a>
-</p>
-<p><img src="workouts.jpg" alt="Six Pack" style="width:560px;height:372px;"></p>
+  <%= link_to 'Click here to watch full page', body_builder_killerabs_path%></p>
+<p><%= image_tag("workouts.jpg", :alt => "Six Pack") %></p>
 <p>World's best online Bodybuilding training site<br></p>
-<p><img src="the-westside.jpg" alt="Dread Lift" style="width:744px;height:357px;"></p>
+<p><%= image_tag("the-westside.jpg", :alt => "Aho") %></p>
 <br>
 <p>Arnold's Bodybuilding : All the time greatest</p>
-<p><a href="Arnold.html">Click here to watch full page</a><br>
-  <img src="arn.jpg" alt="Arnold" style="width:714px;height:397px;"></p>
+<p><%= link_to 'Click here to watch full page', body_builder_arnold_path%><br>
+  <%= image_tag("arn.jpg", :alt => "Arnold") %></p>
 <p1><br>
   Many of us have fuzzy visions of our future. Even as adults, we often struggle to decide who we want to be, what we want to do, and what kind of blueprint we want to leave behind. Arnold Schwarzenegger, however, knew from a young age exactly who he wanted to become. He wanted not to be a great bodybuilder, but the very best. He visualized it, he worked for it, and he actualized it.<br>
 
@@ -77,12 +74,12 @@
 
 </p1>
 <p>10 best chest exercises<br>
-  <a href="Chest.html">Click here to watch full page</a><br>
-  <img src="dips-for-chest.jpg" alt="Chest Dips" style="width:714px;height:476px;">
+  <%= link_to 'Click here to watch full page', body_builder_chest_path%><br>
+  <%= image_tag("dips-for-chest.jpg", :alt => "Chest Dips") %>
   <br>
   POWER UP WITH PLANTS!<br>
-  <a href="Nutrition.html">Choose the options that best support your health and fitness goals.</a><br>
-  <img src="vegetables.jpg" alt="Nutrition" style="width:744px;height:357px;">
+<%= link_to 'Choose the options that best support your health and fitness goals.', body_builder_nutrition_path%><br>
+  <%= image_tag("vegetables.jpg", :alt => "Nutrition") %>
 </p>
 
 <h2>
